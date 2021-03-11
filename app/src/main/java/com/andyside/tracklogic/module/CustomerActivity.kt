@@ -3,15 +3,15 @@ package com.andyside.tracklogic.module
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
-import android.widget.EditText
+import androidx.appcompat.widget.AppCompatButton
+import androidx.appcompat.widget.AppCompatEditText
 import com.andyside.tracklogic.R
 
 class CustomerActivity : AppCompatActivity(), View.OnClickListener {
 
-    lateinit var mStartPin: EditText;
-    lateinit var mDestPin: EditText;
-    lateinit var mCheck: Button;
+    lateinit var mStartPin: AppCompatEditText;
+    lateinit var mDestPin: AppCompatEditText;
+    lateinit var mCheck: AppCompatButton;
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

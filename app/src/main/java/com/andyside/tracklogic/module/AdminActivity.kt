@@ -3,13 +3,13 @@ package com.andyside.tracklogic.module
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
+import androidx.appcompat.widget.AppCompatButton
 import com.andyside.tracklogic.R
 
 class AdminActivity : AppCompatActivity(), View.OnClickListener {
 
-    lateinit var mTaskComplete: Button;
-    lateinit var mTaskPending: Button;
+    lateinit var mTaskComplete: AppCompatButton;
+    lateinit var mTaskPending: AppCompatButton;
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
