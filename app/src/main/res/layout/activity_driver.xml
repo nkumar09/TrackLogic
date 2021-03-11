@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back_img"
     tools:context=".module.DriverActivity">
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/staticTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="70dp"
         android:fontFamily="@font/akaya_telivigala"
         android:text="@string/curr_loc"
         android:textColor="@color/colorTheme"
@@ -23,7 +24,7 @@
         android:id="@+id/currentLocPIN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:fontFamily="@font/lobster_regular"
         android:text="110078"
         android:textColor="@color/colorBlack"
@@ -32,76 +33,112 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/staticTitle" />
 
-    <androidx.appcompat.widget.AppCompatCheckBox
-        android:id="@+id/check1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="50dp"
-        android:fontFamily="@font/lobster_regular"
-        android:text="110089"
-        android:textSize="25sp"
+    <LinearLayout
+        android:id="@+id/linear_lay"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/currentLocPIN" />
+        app:layout_constraintTop_toBottomOf="@+id/currentLocPIN"
+        app:layout_constraintVertical_bias="0.25">
 
-    <androidx.appcompat.widget.AppCompatCheckBox
-        android:id="@+id/check2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="30dp"
-        android:fontFamily="@font/lobster_regular"
-        android:text="110091"
-        android:textSize="25sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/check1" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="3">
 
-    <androidx.appcompat.widget.AppCompatCheckBox
-        android:id="@+id/check3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="30dp"
-        android:fontFamily="@font/lobster_regular"
-        android:text="110092"
-        android:textSize="25sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/check2" />
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:id="@+id/check1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/lobster_regular"
+                android:text="110089"
+                android:textColor="@color/colorBlack"
+                android:textSize="25sp" />
 
-    <androidx.appcompat.widget.AppCompatCheckBox
-        android:id="@+id/check4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="30dp"
-        android:fontFamily="@font/lobster_regular"
-        android:text="110090"
-        android:textSize="25sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/check3" />
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:id="@+id/check2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/lobster_regular"
+                android:text="110091"
+                android:textColor="@color/colorBlack"
+                android:textSize="25sp" />
 
-    <androidx.appcompat.widget.AppCompatCheckBox
-        android:id="@+id/check5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="30dp"
-        android:fontFamily="@font/lobster_regular"
-        android:text="110088"
-        android:textSize="25sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/check4" />
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:id="@+id/check3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/lobster_regular"
+                android:text="110092"
+                android:textColor="@color/colorBlack"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:id="@+id/check4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/lobster_regular"
+                android:text="110090"
+                android:textColor="@color/colorBlack"
+                android:textSize="25sp" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:id="@+id/check5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/lobster_regular"
+                android:text="110088"
+                android:textColor="@color/colorBlack"
+                android:textSize="25sp" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:id="@+id/check6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/lobster_regular"
+                android:text="110086"
+                android:textColor="@color/colorBlack"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/confirmBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/border_btn"
+        android:padding="15dp"
         android:text="Confirm"
         android:textColor="@color/colorWhite"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/check5" />
+        app:layout_constraintTop_toBottomOf="@+id/linear_lay" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

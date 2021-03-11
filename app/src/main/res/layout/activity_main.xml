@@ -28,6 +28,7 @@
         android:background="@drawable/border_btn"
         android:text="@string/customer"
         android:textColor="@color/colorWhite"
+        android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -40,6 +41,7 @@
         android:background="@drawable/border_btn"
         android:text="@string/admin"
         android:textColor="@color/colorWhite"
+        android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/customer" />
@@ -52,6 +54,7 @@
         android:background="@drawable/border_btn"
         android:text="@string/driver"
         android:textColor="@color/colorWhite"
+        android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"

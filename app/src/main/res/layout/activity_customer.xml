@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back_img"
     tools:context=".module.CustomerActivity">
 
     <androidx.appcompat.widget.AppCompatEditText
@@ -38,6 +39,7 @@
         android:layout_marginTop="160dp"
         android:background="@drawable/border_btn"
         android:text="Check"
+        android:padding="10dp"
         android:textColor="#ffffff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
