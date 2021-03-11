@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TrackLogic</string>
+
+    <string name="select_pref_text">Select your Preference</string>
+    <string name="customer">Customer</string>
+    <string name="admin">Admin</string>
+    <string name="driver">Driver</string>
+    <string name="curr_loc">Current Location:</string>
+</resources>
