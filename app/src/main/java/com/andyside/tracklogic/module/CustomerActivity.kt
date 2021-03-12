@@ -10,9 +10,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.widget.AppCompatButton
 import androidx.appcompat.widget.AppCompatEditText
-import androidx.appcompat.widget.DialogTitle
 import com.andyside.tracklogic.R
-import com.andyside.tracklogic.dialog.ConfirmOrderPopup
 
 class CustomerActivity : AppCompatActivity(), View.OnClickListener {
 
