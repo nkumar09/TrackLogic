@@ -44,7 +44,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/currentLocPIN"
-        app:layout_constraintVertical_bias="0.25">
+        app:layout_constraintVertical_bias="0.20">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -59,6 +59,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:buttonTint="@color/colorTheme"
                 android:fontFamily="@font/lobster_regular"
                 android:text="110089"
                 android:textColor="@color/colorBlack"
@@ -69,6 +70,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:buttonTint="@color/colorTheme"
                 android:fontFamily="@font/lobster_regular"
                 android:text="110091"
                 android:textColor="@color/colorBlack"
@@ -79,6 +81,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:buttonTint="@color/colorTheme"
                 android:fontFamily="@font/lobster_regular"
                 android:text="110092"
                 android:textColor="@color/colorBlack"
@@ -99,6 +102,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:buttonTint="@color/colorTheme"
                 android:fontFamily="@font/lobster_regular"
                 android:text="110090"
                 android:textColor="@color/colorBlack"
@@ -109,6 +113,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:buttonTint="@color/colorTheme"
                 android:fontFamily="@font/lobster_regular"
                 android:text="110088"
                 android:textColor="@color/colorBlack"
@@ -119,6 +124,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:buttonTint="@color/colorTheme"
                 android:fontFamily="@font/lobster_regular"
                 android:text="110086"
                 android:textColor="@color/colorBlack"

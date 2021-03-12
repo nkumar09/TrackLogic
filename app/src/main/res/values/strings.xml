@@ -6,4 +6,6 @@
     <string name="admin">Admin</string>
     <string name="driver">Driver</string>
     <string name="curr_loc">Current Location:</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
 </resources>
